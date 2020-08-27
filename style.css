@@ -1,0 +1,13 @@
+body{
+    background:#f0eeecfd;
+    letter-spacing: 0.2em;
+    font-size:0.8em;
+}
+.app{
+    max-width: 450px;
+    max-height: 70vh;
+}
+.icon{
+    margin-bottom: -50px;
+    top: -50px ;
+}

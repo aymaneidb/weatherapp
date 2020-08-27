@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+
+<body>
+    <div class="container my-5 d-flex flex-column app  shadow p-3 mt-4 bg-white rounded">
+        <div class="container d-flex flex-column">
+            <div class="titre">
+                <h1 class="p-2 text-center my-4 text-muted">Weather App</h1>
+            </div>
+            <form class="input-group-prepend form d-flex flex-column ">
+                <label class="c">please enter the city name</label>
+                <input id="input" type="text" name='city'
+                    class=" border shadow-sm p-3  bg-white rounded form-control mt-0" placeholder="City name">
+            </form>
+        </div>
+        <div class="card d-none">
+            <div 
+                class="output border shadow p-3 mt-3 bg-white rounded container d-flex flex-column mt-4">
+                <div class="imagewe d-flex flex-column align-items-center">
+                    <img class="imagee card-img-top img-fluid   "
+                        src="https://via.placeholder.com/400x300">
+                    <div class="cinediv ">
+                        <img class="icon  shadow  position-relative bg-white rounded-circle border">
+                    </div>
+                </div>
+                <div class="result card-body d-flex flex-column align-items-center ">
+                    <h3 class="nameofcity card-title text-center my-3"> City Name</h3>
+                    <div class="weathertype card-text  text-center   h5 my-2">Weather condition</div>
+                    <div class="degree display-4 my-3">
+                        <span>temp</span>
+                        <span id="degrees">&deg;C</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/app.js"></script>
+    <script src="js/forest.js"></script>
+</body>
+
+</html>
